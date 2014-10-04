@@ -92,6 +92,15 @@
                                     <rect key="frame" x="16" y="72" width="288" height="73"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPi-Xc-SoX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="161" width="200" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tK-Di-cEI">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.55851964424838396" blue="0.065604948945744757" alpha="1" colorSpace="calibratedRGB"/>
@@ -115,6 +124,7 @@
                                 <exclude reference="feP-jB-zmy"/>
                                 <exclude reference="KP9-MI-e0H"/>
                                 <exclude reference="gig-Rc-1NK"/>
+                                <exclude reference="MPi-Xc-SoX"/>
                                 <exclude reference="3tK-Di-cEI"/>
                             </mask>
                         </variation>
@@ -124,6 +134,7 @@
                                 <include reference="feP-jB-zmy"/>
                                 <include reference="KP9-MI-e0H"/>
                                 <include reference="gig-Rc-1NK"/>
+                                <include reference="MPi-Xc-SoX"/>
                                 <include reference="3tK-Di-cEI"/>
                             </mask>
                         </variation>
@@ -135,6 +146,7 @@
                         <outlet property="enterNameTextField" destination="feP-jB-zmy" id="SEL-A8-7NM"/>
                         <outlet property="mailButton" destination="3tK-Di-cEI" id="GIF-sd-iWo"/>
                         <outlet property="messageLabel" destination="gig-Rc-1NK" id="XPg-dv-xIC"/>
+                        <outlet property="nameLabel" destination="MPi-Xc-SoX" id="3yZ-Za-nyk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
