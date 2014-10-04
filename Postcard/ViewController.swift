@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()    // makes the keyboard go away
         
-        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal) // change the button title
         
     }
 
