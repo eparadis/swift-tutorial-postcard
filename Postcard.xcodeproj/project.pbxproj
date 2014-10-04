@@ -13,6 +13,8 @@
 		6456719719C4B75000F22034 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6456719619C4B75000F22034 /* Images.xcassets */; };
 		6456719A19C4B75000F22034 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6456719819C4B75000F22034 /* LaunchScreen.xib */; };
 		645671A619C4B75000F22034 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645671A519C4B75000F22034 /* PostcardTests.swift */; };
+		645671B019C4BECB00F22034 /* 50mm_f4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 645671AF19C4BECB00F22034 /* 50mm_f4.jpg */; };
+		645671B219C4C72800F22034 /* chip macro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 645671B119C4C72800F22034 /* chip macro.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6456719F19C4B75000F22034 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645671A419C4B75000F22034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		645671A519C4B75000F22034 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		645671AF19C4BECB00F22034 /* 50mm_f4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50mm_f4.jpg; sourceTree = "<group>"; };
+		645671B119C4C72800F22034 /* chip macro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chip macro.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		6456718D19C4B75000F22034 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				645671B119C4C72800F22034 /* chip macro.jpg */,
+				645671AF19C4BECB00F22034 /* 50mm_f4.jpg */,
 				6456718E19C4B75000F22034 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				6456719519C4B75000F22034 /* Main.storyboard in Resources */,
 				6456719A19C4B75000F22034 /* LaunchScreen.xib in Resources */,
+				645671B219C4C72800F22034 /* chip macro.jpg in Resources */,
+				645671B019C4BECB00F22034 /* 50mm_f4.jpg in Resources */,
 				6456719719C4B75000F22034 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
